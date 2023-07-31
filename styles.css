@@ -433,6 +433,21 @@ body::-webkit-scrollbar-track {
     color: white;
 }
 
+.calendersection {
+    height: 80vh;
+    width: auto;
+    background-color: #ffffff;
+    justify-content: center;
+    padding: 7vh;
+}
+
+.calendertitle {
+    display: flex;
+    justify-content: center;
+    font-size: 6vh;
+    color:#272727;
+}
+
 /* PHONES PORTRAIT */
 @media screen and (max-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
 
