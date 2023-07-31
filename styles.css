@@ -74,6 +74,26 @@ a {
 
 /* logo section */ 
 
+.minilogo {
+    width: 5vw;
+    position: absolute;
+    left: 1vw;
+    top: 1vh;
+    opacity: 1;
+    -webkit-animation: fadingOut ease-in 0.2s;
+    animation: fadingOut ease-in 0.2s;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-delay: 3.8s;
+    animation-delay: 3.8s;
+}
+
+.minilogo:hover {
+    cursor: pointer;
+}
+
 .logobox {
     display: flex;
     top: 10vh;
