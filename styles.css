@@ -79,9 +79,12 @@ a {
 .minilogo {
     width: 7vw;
     position: absolute;
-    left: 1vw;
-    top: 1vh;
+    display: flex;
     opacity: 1;
+    top: 10vh;
+    left: 46vw;
+    justify-content: center;
+    align-items: center ;
 }
 
 .minilogo:hover {
@@ -110,7 +113,7 @@ a {
 .slogan {
     color: #acacac;;
     position: absolute;
-    top: 15vh;
+    top: 25vh;
     font-family: Inter;
     opacity: 1;
     -webkit-animation: fadingOut ease-in 0.2s;
@@ -194,7 +197,7 @@ a {
     justify-content: center;
     border-radius: 2vh;
     position: absolute;
-    top: 37vh;
+    top: 40vh;
     font-size: 3vh;
     border: 1vh black;
     transition: all 0.5s ease;
