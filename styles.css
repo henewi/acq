@@ -1,18 +1,40 @@
 /*------------ github.com/Henewi -------------*/
 
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZJhiI2B.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZthiI2B.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+
 * {
     border: 0;
     margin: 0;
+    font-family: Inter;
 }
 
 a {
     text-decoration: none;
+    font-family: Inter;
 }
 
 @viewport {
   width: device-width ;
   zoom: 1.0 ;
 }
+
+
 
 /* Landing page section */ 
 
@@ -25,6 +47,9 @@ a {
 
 .whiteblock {
     height: 60vh;
+    display: flex;
+    justify-content: center;
+    padding-top: -10vh;
 }
 
 .darkblock {
@@ -32,8 +57,130 @@ a {
     height: 40vh;
 }
 
+/* logo section */ 
+
+.logobox {
+    display: flex;
+    top: 10vh;
+}
+
+.logo {
+    height: 25vh;
+    margin-top: 5vh;
+    opacity: 1;
+    -webkit-animation: fading ease-in 0.2s;
+    animation: fading ease-in 0.2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s
+}
+
+.slogan {
+    position: absolute;
+    top: 15vh;
+    font-family: Inter;
+    opacity: 1;
+    -webkit-animation: fadingOut ease-in 0.2s;
+    animation: fadingOut ease-in 0.2s;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-delay: 1.9s;
+    animation-delay: 1.9s;
 
 
+}
+
+.slogantext {
+    font-family: Inter;
+    font-size: 6vh;
+    font-weight: 900;
+}
+
+@-webkit-keyframes fading {
+    from {
+        opacity: 1;
+    }
+    to {
+         opacity: 0;   
+    }
+}
+@-moz-keyframes fading {
+    from {
+        opacity: 1;
+    }
+    to {
+         opacity: 0;   
+    }
+}
+
+@keyframes fading {
+    from {
+        opacity: 1;
+    }
+    to {
+         opacity: 0;   
+    }
+}
+@-webkit-keyframes fadingOut {
+    from {
+        opacity: 0;
+    }
+    to {
+         opacity: 1;   
+    }
+}
+@-moz-keyframes fadingOut {
+    from {
+        opacity: 0;
+    }
+    to {
+         opacity: 1;   
+    }
+}
+
+@keyframes fadingOut {
+    from {
+        opacity: 0;
+    }
+    to {
+         opacity: 1;   
+    }
+}
+
+.bookacall {
+    color: white;
+    background: rgb(0,4,219);
+    background: linear-gradient(90deg, rgba(0,4,219,1) 0%, rgba(61,9,121,1) 50%, rgba(209,0,255,1) 100%);
+    height: 10vh;
+    width: 16vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vh;
+    position: absolute;
+    top: 37vh;
+    font-size: 3vh;
+    border: 1vh black;
+    transition: all 0.5s ease;
+    -webkit-animation: fadingOut ease-in 0.2s;
+    animation: fadingOut ease-in 0.2s;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-delay: 2.8s;
+    animation-delay: 2.8s;
+}
+
+.bookacall:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
 
 
 
