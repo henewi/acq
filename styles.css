@@ -517,24 +517,24 @@ body::-webkit-scrollbar-track {
     .egcontainer {
         flex-direction: column;
         margin-top: 20vh;
-        height: 436vh;
+        height: 450vh;
     }
     .eg1 {
         position: absolute;
         width: 80vw;
-        top: 23vh;
+        top: 20vh;
         left: 7.5vw;
     }
     .eg2 {
         position: absolute;
         width: 80vw;
-        top: 167vh;
+        top: 170vh;
         left: 7.5vw;
     }
     .eg3 {
         position: absolute;
         width: 80vw;
-        top: 311vh;
+        top: 319vh;
         left: 7.5vw;
     }
 
