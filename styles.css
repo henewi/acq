@@ -328,7 +328,7 @@ a {
     margin: 10vw;
     z-index: 10;
     /* background-color: rgb(255, 105, 105); */
-    height: 280vh;
+    height: 190vh;
     display: flex;
     justify-content: center;
 }
@@ -358,7 +358,7 @@ a {
 
 .eg2d {
     /* background-color: red; */
-    margin-bottom: 30vh;
+    margin-bottom: 15vh;
 }
 
 .eg3 {
