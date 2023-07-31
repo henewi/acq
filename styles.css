@@ -450,7 +450,70 @@ body::-webkit-scrollbar-track {
 
 /* PHONES PORTRAIT */
 @media screen and (max-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
-
+    .minilogo {
+        scale: 5;
+    }
+    .slogan {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+    }
+    .slogantext {
+        display: flex;
+        justify-content: center;
+        font-size: 1.3rem;
+    }
+    .bookacall {
+        width: 60vw;
+        }
+    .phone {
+        opacity: 0;
+    }
+    .big1 {
+        font-size: 1.5rem;
+        margin-bottom: 11vh;
+        margin-top: -5vh;
+    }
+    .big2 {
+        font-size: 1.5rem;
+        margin-bottom: 11vh;
+        margin-top: -5vh;
+    }
+    .big3 {
+        font-size: 1.5rem;
+        margin-bottom: 11vh;
+        margin-top: -3vh;
+    }
+    .small1 {
+        margin-top: -8vh;
+    }
+    .small2 {
+        margin-top: -8vh;
+    }
+    .small3 {
+        margin-top: -8vh;
+    }
+    .pic1 {
+        scale: 3;
+        margin-top: 5vh;
+    }
+    .pic2 {
+        scale: 3;
+        margin-top: 5vh;
+    }
+    .pic3 {
+        scale: 3;
+        margin-top: 5vh;
+    }
+    .dbleft {
+        margin: 5vw;
+    }
+    .dbright{
+        margin: 5vw;
+    }
+    .dbcentre {
+        margin: 5vw;
+    }
 }
 
 /* PHONES LANDSCAPE */
