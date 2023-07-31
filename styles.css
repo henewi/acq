@@ -514,6 +514,30 @@ body::-webkit-scrollbar-track {
     .dbcentre {
         margin: 5vw;
     }
+    .egcontainer {
+        flex-direction: column;
+        margin-top: 20vh;
+        height: 436vh;
+    }
+    .eg1 {
+        position: absolute;
+        width: 80vw;
+        top: 23vh;
+        left: 7.5vw;
+    }
+    .eg2 {
+        position: absolute;
+        width: 80vw;
+        top: 167vh;
+        left: 7.5vw;
+    }
+    .eg3 {
+        position: absolute;
+        width: 80vw;
+        top: 311vh;
+        left: 7.5vw;
+    }
+
 }
 
 /* PHONES LANDSCAPE */
