@@ -65,11 +65,13 @@ a {
     display: flex;
     justify-content: center;
     padding-top: -10vh;
+    z-index: 1;
 }
 
 .darkblock {
     background-color: #272727;
     height: 40vh;
+    z-index: 10;
 }
 
 /* logo section */ 
@@ -306,6 +308,55 @@ a {
     font-size: 2vh;
 }
 
+.demosection {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.egcontainer {
+    margin: 10vw;
+    z-index: 10;
+    background-color: rgb(255, 105, 105);
+    height: 250vh;
+    display: flex;
+    justify-content: center;
+}
+
+.eg1 {
+    position: sticky;
+    position: -webkit-sticky;
+    width: 20vw;
+    margin: 2vw;
+    border: 0.2vw solid rgb(197, 197, 197);
+}
+
+.eg1d {
+    background-color: blue;
+    margin-bottom: 60vh;
+}
+
+.eg2 {
+    width: 20vw;
+    margin: 2vw;
+    border: 0.2vw solid rgb(197, 197, 197);
+}
+
+.eg2d {
+    background-color: red;
+    margin-bottom: 30vh;
+}
+
+.eg3 {
+    width: 20vw;
+    margin: 2vw;
+    border: 0.2vw solid rgb(197, 197, 197);
+}
+
+
+
+
+
 /* PHONES PORTRAIT */
 @media screen and (max-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
 
@@ -329,10 +380,11 @@ a {
 #background-wrap {
     bottom: 0;
 	left: 0;
-	position: fixed;
+	position: absolute;
 	right: 0;
 	top: 0;
 	z-index: -1;
+    overflow: hidden;
 }
 
 /* KEYFRAMES */
