@@ -75,19 +75,11 @@ a {
 /* logo section */ 
 
 .minilogo {
-    width: 5vw;
+    width: 7vw;
     position: absolute;
     left: 1vw;
     top: 1vh;
     opacity: 1;
-    -webkit-animation: fadingOut ease-in 0.2s;
-    animation: fadingOut ease-in 0.2s;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-duration: 0.2s;
-    animation-duration: 0.2s;
-    -webkit-animation-delay: 3.8s;
-    animation-delay: 3.8s;
 }
 
 .minilogo:hover {
@@ -125,8 +117,8 @@ a {
     animation-fill-mode: backwards;
     -webkit-animation-duration: 0.2s;
     animation-duration: 0.2s;
-    -webkit-animation-delay: 1.9s;
-    animation-delay: 1.9s;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
 
 
 }
@@ -191,8 +183,8 @@ a {
 
 .bookacall {
     color: white;
-    background: rgb(0,4,219);
-    background: linear-gradient(90deg, rgba(0,4,219,1) 0%, rgba(61,9,121,1) 50%, rgba(209,0,255,1) 100%);
+    background: rgb(127, 0, 211);
+    background: linear-gradient(90deg, rgb(113, 0, 219) 0%, rgb(100, 11, 216) 50%, rgb(91, 0, 194) 100%);
     height: 10vh;
     width: 16vw;
     display: flex;
@@ -210,8 +202,8 @@ a {
     animation-fill-mode: backwards;
     -webkit-animation-duration: 0.2s;
     animation-duration: 0.2s;
-    -webkit-animation-delay: 2.8s;
-    animation-delay: 2.8s;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
 }
 
 .bookacall:hover {
@@ -230,7 +222,7 @@ a {
     display: flex;
     width: 20vw;
     height: 30vh;
-    margin: 2vw;
+    margin: 3.5vw;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -246,7 +238,7 @@ a {
     display: flex;
     width: 20vw;
     height: 30vh;
-    margin: 2vw;
+    margin: 3.5vw;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -262,7 +254,7 @@ a {
     display: flex;
     width: 20vw;
     height: 30vh;
-    margin: 2vw;
+    margin: 3.5vw;
     align-items: center;
     flex-direction: column;
     justify-content: center;
