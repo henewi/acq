@@ -16,10 +16,21 @@ a {
 
 /* Landing page section */ 
 
+.landingpage {
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+    height: 100vh;
+}
 
+.whiteblock {
+    height: 60vh;
+}
 
-
-
+.darkblock {
+    background-color: #131313;
+    height: 40vh;
+}
 
 
 
