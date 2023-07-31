@@ -182,8 +182,100 @@ a {
     transform: scale(1.05);
 }
 
+.darkblock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.dbleft {
+    color: white;
+    display: flex;
+    width: 20vw;
+    height: 30vh;
+    margin: 2vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s ease;
+}
 
+.dbleft:hover {
+    transform: scale(1.07);
+}
+
+.dbcentre {
+    color: white;
+    display: flex;
+    width: 20vw;
+    height: 30vh;
+    margin: 2vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s ease;
+}
+
+.dbcentre:hover {
+    transform: scale(1.07);
+}
+
+.dbright {
+    color: white;
+    display: flex;
+    width: 20vw;
+    height: 30vh;
+    margin: 2vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s ease;
+}
+
+.dbright:hover {
+    transform: scale(1.07);
+}
+
+.pic1 {
+    width: 8vw;
+    height: 8vw;
+    margin-top: 1vh;
+}
+.pic2 {
+    width: 12vw;
+    height: 8vw;
+    margin-top: 1vh;
+}
+
+.pic3 {
+    height: 8vw;
+    width: 10vw;
+    margin-top: 1vh;
+}
+
+.big1 {
+    font-size: 7vh;
+}
+
+.small1 {
+    font-size: 2vh;
+}
+
+.big2 {
+    font-size: 7vh;
+}
+
+.small2 {
+    font-size: 2vh;
+}
+
+.big3 {
+    font-size: 7vh;
+}
+
+.small3 {
+    font-size: 2vh;
+}
 
 /* PHONES PORTRAIT */
 @media screen and (max-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
