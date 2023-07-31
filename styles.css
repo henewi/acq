@@ -409,37 +409,14 @@ body::-webkit-scrollbar-track {
 }
 
 .phoneimg {
-    width: 20vw;
+    width: 30vw;
 }
   
   @keyframes trans {
     to {
-      transform: translateY(-100vh)
+      transform: translateY(-200vh)
     }
   }
-
-#count3 {
-    position: absolute;
-    color: rgb(230, 183, 183);
-    background-color: #7a6c6c;
-    width: 2vw;
-    font-weight: 100;
-    font-size: 2vh;
-    margin-left: 15.7vw;
-    margin-top: 14.5vh;
-}
-
-.spamtext {
-    position: absolute;
-    color: rgb(230, 183, 183);
-    background-color: #7a6c6c;
-    margin-top: 14.5vh;
-    margin-left: 4vw;
-    width: 10vw;
-}
-
-
-
 
 
 /* PHONES PORTRAIT */
