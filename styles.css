@@ -314,6 +314,16 @@ a {
     background-color: #ffffff;
 }
 
+.demotitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 6vh;
+    margin-top: 8vh;
+    color: rgb(111, 0, 255)
+}
+
 .egcontainer {
     margin: 10vw;
     z-index: 10;
