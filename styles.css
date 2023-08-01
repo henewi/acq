@@ -1,42 +1,18 @@
 /*------------ github.com/Henewi -------------*/
 
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZJhiI2B.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-  }
-  /* cyrillic */
-  @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZthiI2B.woff2) format('woff2');
-    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-  @font-face {
-    font-family: 'InterLight';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZthiI2B.woff2) format('woff2');
-    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
 
 
 * {
     border: 0;
     margin: 0;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
 }
 
 a {
     text-decoration: none;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
 }
 
 html {
@@ -241,6 +217,7 @@ body::-webkit-scrollbar-track {
     animation-duration: 0.2s;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
+    font-weight: 900;
 }
 
 .bookacall:hover {
@@ -252,6 +229,7 @@ body::-webkit-scrollbar-track {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 900;
 }
 
 .dbleft {
@@ -461,6 +439,8 @@ body::-webkit-scrollbar-track {
     font-size: 4vh;
     margin-bottom: 4vh;
     margin-top: -5vh;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
 }
 
 .ts1small {
