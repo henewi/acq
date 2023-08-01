@@ -421,6 +421,18 @@ body::-webkit-scrollbar-track {
     color: #272727;
 }
 
+.strategycontainer {
+    z-index: 31;
+}
+
+.ts1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10vw;
+    width: 10vw;
+}
+
 #calendersection {
     height: 80vh;
     width: auto;
