@@ -402,7 +402,7 @@ body::-webkit-scrollbar-track {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 100vh;
+    top: 90vh;
     width: 99vw;
     z-index: 15;
     animation: trans 1s linear infinite;
@@ -419,7 +419,7 @@ body::-webkit-scrollbar-track {
   
 @keyframes trans {
     to {
-      transform: translateY(-230vh)
+      transform: translateY(-250vh)
     }
 }
 
