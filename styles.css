@@ -423,6 +423,7 @@ body::-webkit-scrollbar-track {
 
 .strategycontainer {
     z-index: 31;
+    display: flex;
 }
 
 .ts1 {
