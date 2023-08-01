@@ -337,7 +337,7 @@ body::-webkit-scrollbar-track {
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #f3f3f3;
     z-index: 30;
 }
 
@@ -355,46 +355,27 @@ body::-webkit-scrollbar-track {
     margin-top: 10vw;
     z-index: 30;
     /* background-color: rgb(255, 105, 105); */
-    height: 190vh;
+    height: 160vh;
     display: flex;
     justify-content: center;
 }
 
 .eg1 {
     top: 5vh;
-    position: sticky;
-    position: -webkit-sticky;
     width: 20vw;
     margin: 2vw;
-    border: 0.2vw solid rgb(197, 197, 197);
-}
-
-.eg1d {
-    /* background-color: blue; */
-    margin-bottom: 30vh;
 }
 
 .eg2 {
     top: 5vh;
-    position: sticky;
-    position: -webkit-sticky;
     width: 20vw;
     margin: 2vw;
-    border: 0.2vw solid rgb(197, 197, 197);
-}
-
-.eg2d {
-    /* background-color: red; */
-    margin-bottom: 15vh;
 }
 
 .eg3 {
     top: 5vh;
-    position: sticky;
-    position: -webkit-sticky;
     width: 20vw;
     margin: 2vw;
-    border: 0.2vw solid rgb(197, 197, 197);
 }
 
 .phone {
@@ -402,7 +383,7 @@ body::-webkit-scrollbar-track {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 90vh;
+    top: 89vh;
     width: 99vw;
     z-index: 15;
     animation: trans 1s linear infinite;
@@ -414,28 +395,30 @@ body::-webkit-scrollbar-track {
 }
 
 .phoneimg {
-    width: 30vw;
+    width: 35vw;
 }
   
 @keyframes trans {
     to {
-      transform: translateY(-250vh)
+      transform: translateY(-350vh)
     }
 }
 
 .whysection {
-    height: 80vh;
+    height: 100vh;
+    position: relative;
     width: auto;
-    background-color: #272727;
+    background-color: #f3f3f3;
     justify-content: center;
     padding: 7vh;
+    z-index: 30;
 }
 
 .whytitle {
     display: flex;
     justify-content: center;
     font-size: 6vh;
-    color: white;
+    color: #272727;
 }
 
 #calendersection {
