@@ -29,6 +29,10 @@ a {
     font-family: Inter;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @viewport {
   width: device-width ;
   zoom: 1.0 ;
@@ -215,6 +219,7 @@ body::-webkit-scrollbar-track {
     border-radius: 2vh;
     position: absolute;
     top: 40vh;
+    left: 42vw;
     font-size: 3vh;
     border: 1vh black;
     transition: all 0.5s ease;
@@ -433,7 +438,7 @@ body::-webkit-scrollbar-track {
     color: white;
 }
 
-.calendersection {
+#calendersection {
     height: 80vh;
     width: auto;
     background-color: #ffffff;
