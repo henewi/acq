@@ -660,6 +660,83 @@ body::-webkit-scrollbar-track {
         left: 20vw;
     }
 
+    .whysection {
+        height: 135vh;
+    }
+    .whytitle {
+        display: flex;
+        text-align: center;
+    }
+    .strategycontainer {
+        flex-direction: column;
+    }
+    .ts1d {
+        top: -10vh;
+        left: 25vw;
+        display: flex;
+        justify-content: center;
+    }
+    .ts1 {
+        scale: 0.4;
+        top: 0;
+        left: 0;
+    }
+    .ts1big {
+        width: 100vw;
+        margin-top: -12vh;
+    }
+    .ts1small {
+        width: 80vw;
+        margin-top: -2vh;
+    }
+    .ts2d {
+        top: 30vh;
+        left: 25vw;
+        display: flex;
+        justify-content: center;
+    }
+    .ts2 {
+        top: 0;
+        left: 0;
+        scale: 0.4;
+    }
+    .ts2big {
+        width: 100vw;
+        margin-top: -14vh;
+    }
+    .ts2small {
+        width: 80vw;
+        margin-top: -2vh;
+    }
+    .ts3d {
+        top: 69vh;
+        display: flex;
+    }
+    .ts3 {
+        top: 0;
+        left: 0;
+        scale: 0.4;
+    }
+    .ts3big {
+        width: 100vw;
+        margin-top: -16vh;
+    }
+    .ts3small {
+        width: 80vw;
+        margin-top: -2vh;
+    }
+    .calendertitle {
+        text-align: center;
+    }
+    .footercontent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .learnmore {
+        width: 60vw;
+    }
 }
 
 /* PHONES LANDSCAPE */
