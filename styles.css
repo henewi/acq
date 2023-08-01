@@ -18,6 +18,16 @@
     unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
   }
 
+  @font-face {
+    font-family: 'InterLight';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZthiI2B.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+
+
 * {
     border: 0;
     margin: 0;
@@ -405,7 +415,7 @@ body::-webkit-scrollbar-track {
 }
 
 .whysection {
-    height: 100vh;
+    height: 105vh;
     position: relative;
     width: auto;
     background-color: #f3f3f3;
@@ -424,22 +434,98 @@ body::-webkit-scrollbar-track {
 .strategycontainer {
     z-index: 31;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.ts1d {
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+    position: absolute;
+    top: -3vh;
+    left: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .ts1 {
-    height: 10vw;
-    width: 10vw;
+    scale: 0.6;
+}
+
+.ts1big {
+    font-size: 4vh;
+    margin-bottom: 4vh;
+    margin-top: -5vh;
+}
+
+.ts1small {
+    font-size: 2vh;
+    font-weight: 100;
+}
+
+.ts2d {
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+    position: absolute;
+    top: -3vh;
+    left: 48vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .ts2 {
-    height: 10vw;
-    width: 10vw;
+    scale: 0.6;
+}
+
+.ts2big {
+    font-size: 4vh;
+    margin-bottom: 4vh;
+    margin-top: -5vh;
+}
+
+.ts2small {
+    font-size: 2vh;
+    font-weight: 100;
+}
+
+
+.ts3d {
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 45vh;
 }
 
 .ts3 {
-    height: 10vw;
-    width: 10vw;
+    scale: 0.6;
 }
+
+.ts3big {
+    font-size: 4vh;
+    margin-bottom: 4vh;
+    margin-top: -10vh;
+}
+
+.ts3small {
+    font-size: 2vh;
+    font-weight: 100;
+}
+
 #calendersection {
     height: 80vh;
     width: auto;
