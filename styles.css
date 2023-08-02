@@ -103,20 +103,6 @@ body::-webkit-scrollbar-track {
     top: 10vh;
 }
 
-.logo {
-    height: 25vh;
-    margin-top: 5vh;
-    opacity: 1;
-    -webkit-animation: fading ease-in 0.2s;
-    animation: fading ease-in 0.2s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-duration: 0.2s;
-    animation-duration: 0.2s;
-    -webkit-animation-delay: 1.6s;
-    animation-delay: 1.6s
-}
-
 .slogan {
     color: #acacac;;
     position: absolute;
