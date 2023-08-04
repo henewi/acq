@@ -557,6 +557,9 @@ body::-webkit-scrollbar-track {
 
 /* PHONES PORTRAIT */
 @media screen and (max-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
+    html {
+        overflow-x: hidden;
+    }
     .minilogo {
         scale: 5;
     }
@@ -589,7 +592,7 @@ body::-webkit-scrollbar-track {
     .big3 {
         font-size: 1.5rem;
         margin-bottom: 11vh;
-        margin-top: -3vh;
+        margin-top: -4.4vh;
     }
     .small1 {
         margin-top: -8vh;
@@ -602,11 +605,11 @@ body::-webkit-scrollbar-track {
     }
     .pic1 {
         scale: 3;
-        margin-top: 5vh;
+        margin-top: 7vh;
     }
     .pic2 {
         scale: 3;
-        margin-top: 5vh;
+        margin-top: 7vh;
     }
     .pic3 {
         scale: 3;
@@ -620,6 +623,10 @@ body::-webkit-scrollbar-track {
     }
     .dbcentre {
         margin: 5vw;
+    }
+    .demotitle {
+        text-align: center;
+        margin-top: 3vh;
     }
     .egcontainer {
         flex-direction: column;
@@ -659,62 +666,70 @@ body::-webkit-scrollbar-track {
         flex-direction: column;
     }
     .ts1d {
-        top: -10vh;
         left: 25vw;
         display: flex;
+        top: 10vh;
         justify-content: center;
     }
     .ts1 {
-        scale: 0.4;
-        top: 0;
+        scale: 2.4;
         left: 0;
     }
     .ts1big {
         width: 100vw;
-        margin-top: -12vh;
+        margin-top: 8vh;
     }
     .ts1small {
         width: 80vw;
-        margin-top: -2vh;
+        margin-top: 2vh;
     }
     .ts2d {
-        top: 30vh;
+        top: 48vh;
         left: 25vw;
         display: flex;
         justify-content: center;
     }
     .ts2 {
-        top: 0;
+        scale: 2.4;
         left: 0;
-        scale: 0.4;
     }
     .ts2big {
         width: 100vw;
-        margin-top: -14vh;
+        margin-top: 9vh;
     }
     .ts2small {
         width: 80vw;
-        margin-top: -2vh;
+        margin-top: 2vh;
     }
     .ts3d {
-        top: 69vh;
+        top: 90vh;
         display: flex;
     }
     .ts3 {
-        top: 0;
+        scale: 2.4;
         left: 0;
-        scale: 0.4;
     }
     .ts3big {
         width: 100vw;
-        margin-top: -16vh;
+        margin-top: 8vh;
     }
     .ts3small {
         width: 80vw;
-        margin-top: -2vh;
+        margin-top: 2vh;
     }
     .calendertitle {
         text-align: center;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+    #calendersection {
+        height: 140vh;
+        padding: 0;
+        margin: 0;
+    }
+    .calendly-inline-widget {
+        border-radius: 10px;
+        min-height: 110vh;
     }
     .footercontent {
         display: flex;
