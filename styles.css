@@ -552,6 +552,11 @@ body::-webkit-scrollbar-track {
     border-radius: 13vh;
 }
 
+.calendly-inline-widget {
+    height: 70vh;
+    min-width: 320px;
+}
+
 
 /* PHONES PORTRAIT */
 @media screen and (max-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
