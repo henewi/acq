@@ -284,12 +284,19 @@ body::-webkit-scrollbar-track {
     margin-top: 1vh;
 }
 
+#bookacalltext {
+    align-items: center;
+    text-align: center;
+}
+
 .big1 {
     font-size: calc(3vw + 20px);
 }
 
 .small1 {
     font-size: 2vh;
+    align-items: center;
+    text-align: center;
 }
 
 .big2 {
@@ -298,6 +305,8 @@ body::-webkit-scrollbar-track {
 
 .small2 {
     font-size: 2vh;
+    align-items: center;
+    text-align: center;
 }
 
 .big3 {
@@ -306,6 +315,8 @@ body::-webkit-scrollbar-track {
 
 .small3 {
     font-size: 2vh;
+    align-items: center;
+    text-align: center;
 }
 
 .demosection {
@@ -575,9 +586,13 @@ body::-webkit-scrollbar-track {
     }
     .bookacall {
         width: 60vw;
+        text-align: center;
         }
-    .phone {
-        opacity: 0;
+    #bookacalltext {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .big1 {
         font-size: 1.5rem;
