@@ -124,7 +124,7 @@ body::-webkit-scrollbar-track {
 .slogantext {
     color: #c4c4c4;;
     font-family: Inter;
-    font-size: 6vh;
+    font-size: calc(2vw + 20px);
     font-weight: 900;
 }
 
@@ -184,14 +184,15 @@ body::-webkit-scrollbar-track {
     background: rgb(127, 0, 211);
     background: linear-gradient(90deg, rgb(113, 0, 219) 0%, rgb(100, 11, 216) 50%, rgb(91, 0, 194) 100%);
     height: 8vh;
-    width: 16vw;
+    width: 17vw;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10vh;
-    position: absolute;
-    top: 40vh;
-    left: 42vw;
+    border-radius: 10px;
+    margin-top: 40vh;
+    left: 39vw;
     font-size: 3vh;
     border: 1vh black;
     transition: all 0.5s ease;
@@ -284,7 +285,7 @@ body::-webkit-scrollbar-track {
 }
 
 .big1 {
-    font-size: 7vh;
+    font-size: calc(3vw + 20px);
 }
 
 .small1 {
@@ -292,7 +293,7 @@ body::-webkit-scrollbar-track {
 }
 
 .big2 {
-    font-size: 7vh;
+    font-size: calc(3vw + 20px);
 }
 
 .small2 {
@@ -300,7 +301,7 @@ body::-webkit-scrollbar-track {
 }
 
 .big3 {
-    font-size: 7vh;
+    font-size: calc(3vw + 20px);
 }
 
 .small3 {
@@ -409,7 +410,7 @@ body::-webkit-scrollbar-track {
     padding: 0;
     width: 20vw;
     position: absolute;
-    top: -3vh;
+    top: 8vh;
     left: 20vw;
     display: flex;
     flex-direction: column;
@@ -419,13 +420,13 @@ body::-webkit-scrollbar-track {
 }
 
 .ts1 {
-    scale: 0.6;
+    max-height: calc(13vw + 20px);
 }
 
 .ts1big {
     font-size: 4vh;
-    margin-bottom: 4vh;
-    margin-top: -5vh;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
 }
@@ -440,7 +441,7 @@ body::-webkit-scrollbar-track {
     padding: 0;
     width: 20vw;
     position: absolute;
-    top: -3vh;
+    top: 8vh;
     left: 48vw;
     display: flex;
     flex-direction: column;
@@ -450,13 +451,13 @@ body::-webkit-scrollbar-track {
 }
 
 .ts2 {
-    scale: 0.6;
+    max-height: calc(13vw + 20px);
 }
 
 .ts2big {
     font-size: 4vh;
-    margin-bottom: 4vh;
-    margin-top: -5vh;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
 }
 
 .ts2small {
@@ -475,17 +476,17 @@ body::-webkit-scrollbar-track {
     align-items: center;
     text-align: center;
     position: absolute;
-    top: 45vh;
+    top: 55vh;
 }
 
 .ts3 {
-    scale: 0.6;
+    max-height: calc(13vw + 20px);
 }
 
 .ts3big {
     font-size: 4vh;
-    margin-bottom: 4vh;
-    margin-top: -10vh;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
 }
 
 .ts3small {
