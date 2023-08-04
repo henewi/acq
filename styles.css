@@ -316,14 +316,14 @@ body::-webkit-scrollbar-track {
 }
 
 .demotitle {
-    font-weight: 900;
+    font-weight: 300;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     font-size: 6vh;
     margin-top: 8vh;
-    color: rgb(111, 0, 255)
+    color: rgb(0, 0, 0)
 }
 
 .egcontainer {
@@ -383,7 +383,7 @@ body::-webkit-scrollbar-track {
     height: 105vh;
     position: relative;
     width: auto;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     justify-content: center;
     padding: 7vh;
     z-index: 30;
