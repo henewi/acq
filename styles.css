@@ -759,7 +759,12 @@ body::-webkit-scrollbar-track {
 
 /* PHONES LANDSCAPE */
 @media (orientation: landscape) and (max-device-height: 480px) and (hover: none) and (pointer: coarse) {
-
+    #calendersection {
+        height: 310vh;
+    }
+    .calendly-inline-widget {
+        min-height: 300vh;
+    }
 }
 
 /* TABLET-IPAD PORTRAIT */
