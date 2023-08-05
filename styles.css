@@ -769,12 +769,25 @@ body::-webkit-scrollbar-track {
 
 /* TABLET-IPAD PORTRAIT */
 @media screen and (min-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
-
+    .ts1d {
+        margin-left: -30px;
+    }
+    #calendersection {
+        height:100vh;
+    }
+    .calendly-inline-widget {
+        min-height: 100vh;
+    }
 }
 
 /* TABLET-IPAD LANDSCAPE */
 @media screen and (min-device-width: 480px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
-
+    #calendersection {
+        height:150vh;
+    }
+    .calendly-inline-widget {
+        min-height: 150vh;
+    }
 }
 
 #background-wrap {
