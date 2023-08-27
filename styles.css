@@ -646,7 +646,7 @@ body::-webkit-scrollbar-track {
     .egcontainer {
         flex-direction: column;
         margin-top: 20vh;
-        height: 450vh;
+        height: 300vh;
     }
     .eg1 {
         position: absolute;
